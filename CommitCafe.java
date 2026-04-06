@@ -8,8 +8,7 @@ public class CommitCafe {
     public static void brew(String drink) {
         System.out.println("[BREW] " + barista + " (" + title + ") is brewing a " + drink + ".");
         cups++;
-        System.out.println("CoffeeBot brewed " + drink + ". Keep calm and merge the mocha.");
-        System.out.println("[BOT CHECK] drink length = " + drink.length()); // STUDENT_TODO_2B: Add a second brew-related improvement
+        System.out.println("[BREW] drink length = " + drink.length()); // STUDENT_TODO_2B: Add a second brew-related improvement
     }
 
     public static void printSummary() {
